@@ -7,7 +7,36 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php
+
+if(isset($_POST['btn'])){
+    $func = $_POST['name'];
+
+
+function showkat(){
+    echo "This is Showkat";
+}
+function osman(){
+    echo "This is Osman";
+}
+function gony(){
+    echo "This is Gony";
+}
+function easin(){
+    echo "This is Easin";
+}
+   $func();
+}
+
+?>
+
+
+
+
+
     <form method="POST">
+        <input type="text" name="name">
         <input type="submit" name="btn" value="OK">
 
     </form>
