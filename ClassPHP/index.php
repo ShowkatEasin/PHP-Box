@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<?php
+<!-- <?php
 
 if(isset($_POST['btn'])){
     $func = $_POST['name'];
@@ -31,14 +31,19 @@ function easin(){
 
 ?>
 
+ -->
+
+
+ <?php
+ include 'classes.php';
+ ?>
 
 
 
-
-    <form method="POST">
+   <!--  <form method="POST">
         <input type="text" name="name">
         <input type="submit" name="btn" value="OK">
 
-    </form>
+    </form> -->
 </body>
 </html>
